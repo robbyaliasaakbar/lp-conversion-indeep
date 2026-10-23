@@ -1,0 +1,25 @@
+# File development, bukan bagian landing page
+chat.md
+hasil_inspeksi.md
+__shot.html
+__tw-cdn-test.html
+issue.md
+plan_prd/
+*.sh
+
+# Environment
+.env
+.env.*
+
+# Log
+*.log
+npm-debug.log*
+
+# Dependency build. Hasil build Tailwind (assets/css/tailwind-base.css
+# dan tailwind-utils.css) TETAP di-commit karena halaman memakainya
+# langsung. Yang diabaikan cuma folder dependency-nya.
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

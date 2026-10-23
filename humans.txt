@@ -1,0 +1,24 @@
+/* TEAM */
+
+Nama: InDeep Cleaning ID
+Peran: Layanan cuci sofa, kasur, karpet, gordyn, interior mobil, dan baby stuff
+Domisili: Bekasi, Jawa Barat, Indonesia
+Kontak: 087748244464
+WhatsApp: https://wa.me/6287748244464
+Instagram: @indeepcleaningid
+Situs: https://indeepcleaningid.site
+
+/* SITE */
+
+Nama: Landing Page Conversion InDeep Cleaning ID
+URL: https://landingpage.indeepcleaningid.site/
+Bahasa: Indonesia
+Stack: HTML5, Tailwind CSS, Vanilla JavaScript
+Backend: Tidak ada, murni frontend statis
+Hosting: Hostinger shared hosting
+Standar: Semantic HTML, WCAG AA untuk kontras teks
+
+/* CATATAN */
+
+Halaman ini memakai inline sprite untuk ikon, bukan file ikon terpisah.
+Sumber per-ikon disimpan di luar repo.

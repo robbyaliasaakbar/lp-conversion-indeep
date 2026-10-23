@@ -1,0 +1,7 @@
+/* Sumber utility Tailwind untuk build.
+   Jalankan: npm run build:css
+   Hasil: assets/css/tailwind-utils.css
+
+   Dipisah dari tailwind-input.css karena utility harus dimuat SESUDAH
+   style.css. Lihat penjelasan lengkap di tailwind-input.css. */
+@tailwind utilities;

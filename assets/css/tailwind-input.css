@@ -1,0 +1,20 @@
+/* Sumber Tailwind untuk build.
+   Jalankan: npm run build:css
+   Hasil:
+     assets/css/tailwind-base.css    (preflight/base + components)
+     assets/css/tailwind-utils.css   (utilities)
+
+   Kenapa dipecah dua file:
+
+   Preflight Tailwind adalah reset yang mengubah nilai default browser
+   (margin heading, list, line-height, dan lain-lain). Reset itu harus
+   dimuat SEBELUM style.css supaya aturan desain project menang.
+
+   Utility seperti mb-8 dan text-center harus dimuat SESUDAH style.css
+   supaya bisa menimpa class komponen. Ini meniru perilaku saat Tailwind
+   masih dimuat lewat CDN, yang menyuntik style paling akhir.
+
+   File ini tidak dipakai langsung oleh halaman. Yang dipakai halaman
+   adalah hasil build-nya. */
+@tailwind base;
+@tailwind components;

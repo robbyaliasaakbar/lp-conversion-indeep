@@ -1,0 +1,13 @@
+{
+  "name": "indeepcleaning-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page conversion InDeep Cleaning ID. Build Tailwind jadi CSS statis, tanpa dependency runtime.",
+  "scripts": {
+    "build:css": "tailwindcss -c tailwind.config.js -i ./assets/css/tailwind-input.css -o ./assets/css/tailwind-base.css --minify && tailwindcss -c tailwind.config.js -i ./assets/css/tailwind-utils-input.css -o ./assets/css/tailwind-utils.css --minify",
+    "watch:css": "tailwindcss -c tailwind.config.js -i ./assets/css/tailwind-input.css -o ./assets/css/tailwind-base.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
