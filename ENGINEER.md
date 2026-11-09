@@ -19,6 +19,47 @@
 
 ## 2026-11-09
 
+### Harga awal cuci interior mobil disesuaikan dengan pricelist resmi
+
+**Apa:** Harga awal pada kartu Cuci Interior Mobil dan penawaran JSON-LD
+diubah dari Rp200.000 menjadi Rp380.000.
+
+**Kenapa:** Rp200.000 adalah harga cuci plafon 2 baris, sedangkan layanan
+interior bawah 2 baris pada pricelist resmi berharga Rp380.000. Harga kartu
+dan structured data kini konsisten dengan layanan interior bawah.
+
+**File yang kena:** `index.html`, `ENGINEER.md`.
+
+**Issue:** #4.
+
+### Harga karpet dan gordyn ditampilkan terpisah
+
+**Apa:** Kartu Cuci Karpet dan Gordyn kini menampilkan harga karpet Rp25.000
+per m2 dan gordyn Rp15.000 per m2 pada baris terpisah.
+
+**Kenapa:** Harga Rp15.000 sebelumnya mudah dianggap sebagai harga karpet,
+padahal itu adalah harga gordyn. Pemisahan membuat harga tiap layanan jelas
+dan konsisten dengan pricelist serta JSON-LD yang sudah ada.
+
+**File yang kena:** `index.html`, `ENGINEER.md`.
+
+**Issue:** #5.
+
+### Minimum order ditampilkan dekat layanan dan booking
+
+**Apa:** Menambahkan informasi minimum order Rp250.000 per pencucian di
+section layanan dan section pilihan booking.
+
+**Kenapa:** Informasi minimum order sebelumnya hanya mudah ditemukan di FAQ.
+Penempatan dekat daftar layanan dan CTA booking membantu pelanggan memahami
+ketentuan sebelum memilih layanan atau memulai booking.
+
+**File yang kena:** `index.html`, `ENGINEER.md`.
+
+**Issue:** #6.
+
+---
+
 ### SEO: lengkapi metadata share, tautkan schema, dan rawat sitemap
 
 **Apa:** Menambahkan metadata OG image alt dan Twitter Card agar preview share
