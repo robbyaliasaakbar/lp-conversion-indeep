@@ -19,6 +19,24 @@
 
 ## 2026-11-09
 
+### Google Analytics dimuat saat idle atau interaksi pertama
+
+**Apa:** `gtag.js` tidak lagi diminta langsung saat parsing `<head>`. Perintah
+`js` dan `config` tetap diantrekan segera, sedangkan library GA mulai dimuat
+saat browser idle (batas 3,5 detik), saat interaksi pertama, atau fallback
+2,5 detik pada browser tanpa `requestIdleCallback`.
+
+**Kenapa:** Pengukuran ulang production dengan CPU throttling 20x menunjukkan
+TBT median 490 ms dengan GA aktif dan 76 ms saat request GA diblokir. Penundaan
+ini menjaga antrean `page_view` sambil mengurangi kompetisi eksekusi GA dengan
+render dan interaksi awal.
+
+**File yang kena:** `index.html`, `ENGINEER.md`.
+
+**Issue:** #7.
+
+---
+
 ### Harga awal cuci interior mobil disesuaikan dengan pricelist resmi
 
 **Apa:** Harga awal pada kartu Cuci Interior Mobil dan penawaran JSON-LD
