@@ -17,6 +17,24 @@
 
 ---
 
+## 2026-11-09
+
+### SEO: lengkapi metadata share, tautkan schema, dan rawat sitemap
+
+**Apa:** Menambahkan metadata OG image alt dan Twitter Card agar preview share
+memuat gambar besar dengan teks yang konsisten. Menautkan `WebSite`,
+`LocalBusiness`, dan `Service` menggunakan `@id`, serta menambahkan logo bisnis
+ke schema. Memperbarui `lastmod` sitemap dan menambahkan aturan pembaruannya
+setiap kali `index.html` berubah.
+
+**Kenapa:** Menindaklanjuti issue #11, #17, dan #18 agar metadata social share
+lebih lengkap, entitas schema lebih jelas terhubung, serta tanggal sitemap
+tidak tertinggal setelah perubahan konten.
+
+**File yang kena:** `index.html`, `sitemap.xml`, `CONTRIBUTING.md`, `ENGINEER.md`.
+
+---
+
 ## 2026-10-23
 
 ### Repo GitHub dihubungkan dan commit awal di-push
