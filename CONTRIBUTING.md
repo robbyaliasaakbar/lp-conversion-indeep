@@ -148,6 +148,7 @@ Jalankan yang relevan, semua wajib kecuali ditandai opsional.
 - [ ] **Copywriting lolos aturan** di bagian 4
 - [ ] **`git status` bersih** dari file terlarang (Aturan 5)
 - [ ] **`ENGINEER.md` sudah dapat entry baru**
+- [ ] **`sitemap.xml` `lastmod` diperbarui** pada commit yang sama setiap kali `index.html` berubah
 
 ### Wajib kalau menyentuh CSS atau HTML
 
